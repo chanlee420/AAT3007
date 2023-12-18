@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="home" onclick="location.href='/'">
+                <img src="source/logo.png">
+            </div>
+            <div id='nav_blank'></div>
+            <div id="search">
+                <form method=get action="https://www.google.com/search" target="_blank">
+                    <input type="search" placeholder="Google Search" name='q'>
+                </form>
+            </div>
+        </div>
+    </header>
+    
+    <div id='content'>
+        <div id="main">
+            <!-- 최적화 : 디스크 조각 모음, 디스크 정리, everything-->
+            <div id='opt'>
+                <p id="opt_btn">Problem with speed and storage of PC?</p>
+                <div id="opt_list">
+                    <a href="opt/disk.html">디스크 정리</a><br>
+                    <p>&nbsp;Clear out any junk data from your storage</p>
+                    <a href="opt/drive.html">드라이브 조각 모음 및 최적화</a><br>
+                    <p>&nbsp;Optimize your drive to find whatever is in your storage faster than before</p>
+                </div>
+            </div>
+            <!-- 해결 : Malware Zero, Save Image as PNG, Adblock -->
+            <div id="prob">
+                <p id="prob_btn">Problem while using PC?</p>
+                <div id="prob_list">
+                    <a href="prob/imgaspng.html">Save Image as PNG</a><br>
+                    <p>&nbsp;When you need png file from internet but couldnt seem to be able to download it</p>
+                    <a href="prob/libre.html">Libre Office</a><br>
+                    <p>&nbsp;Free program to replace Microsoft office</p>
+                    <a href="prob/mal0.html">Malware Zero</a><br>
+                    <p>&nbsp;Free program to erase and remove malware</p>
+                </div>
+            </div>
+            <!-- 추천-->
+            <div id="recom">
+                <p id="recom_btn">Wanna see my personal recommendation?</p>
+                <div id="recom_list">
+                    <a href="recom/adblock.html">Adblock</a><br>
+                    <p>&nbsp;Remove advertisement from websites and youtube</p>
+                    <a href="recom/davinci.html">Davinci Resolve</a><br>
+                    <p>&nbsp;Free video editor</p>
+                    <a href="recom/everything.html">Everything</a><br>
+                    <p>&nbsp;Free indexing program that helps you find your file quicker</p>
+                    <a href="recom/imgpresso.html">imgPresso</a><br>
+                    <p>&nbsp;Free site that helps you reduce size of your image files</p>
+                    <a href="recom/livewallpaper.html">Wallpaper Engine</a><br>
+                    <p>&nbsp;Live wallpaper to customize your PC</p>
+                    <a href="recom/notion.html">Notion</a><br>
+                    <p>&nbsp;Useful memo/wiki program that keeps track of all the online memo at same time</p>
+                    <a href="recom/npp.html">Notepad++</a><br>
+                    <p>&nbsp;Text Editor better than origianl notepad</p>
+                    <a href="recom/rainmeter.html">Rainmeter</a><br>
+                    <p>&nbsp;GUI tool that helps you customize your background</p>
+                </div>
+            </div>
+            <div id="hidden" style="opacity:0%">
+                <a href="https://lostark.game.onstove.com/Main">LostArk</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        PC optimiziation<br>
+        <span id="contact">
+            Contact<br>
+        </span>
+        <div id="contactpopup">
+            chanlee420@naver.com
+        </div>
+        <div id="cpright">
+            Copyright TrB All rights reserved / Designed by TrB
+        </div>
+    </footer>
+    
+    <div id="control">
+        <div id='up'>
+            <img src="source/double-up.svg" style="height: 100%;">
+        </div>
+        <div id="down">
+            <img src="source/double-down.svg" style="height:100%">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
