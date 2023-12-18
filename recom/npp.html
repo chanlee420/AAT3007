@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link href="/subpage.css" rel="stylesheet" type="text/css">
+    <title>Notepad++</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div id="home" onclick="location.href='/'">
+                <img src="/source/logo.png">
+            </div>
+            <div id='nav_blank'></div>
+            <div id="search">
+                <form method=get action="https://www.google.com/search" target="_blank">
+                    <input type="search" placeholder="Google Search" name='q'>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div id='content'>
+        <br>
+        <span style="font-weight: bold; font-size:200%;">Notepad++</span><br>
+        <span style="font-weight: bold; font-size:150%;">- Simple, but Powerful Free Text Editor </span><br><br>
+        Notepad++는 다양한 기능을 가진 무료 텍스트 에디터입니다.<br>
+        텍스트 에디터의 대표적인 예시로는 윈도우의 메모장과 마이크로소프트의 Visual Studio Code 등이 있습니다.<br>
+        메모장은 가볍지만 텍스트를 작성하고 수정하는 것 이외의 기능이 거의 없다고 볼 수 있으며,<br>
+        Visual Studio Code는 여러가지 추가적인 기능을 설치할 수 있지만 상대적으로 프로그램의 크기가 크고 작동이 느립니다.<br>
+        Notepad++는 메모장과 Visual Studio Code의 중간에 있다고 볼 수 있겠네요.<br><br>
+        메모장과 비슷한 UI, 하지만 더 다양한 기능.<br>
+        Visual Studio Code보다 더 가볍고 빠른 프로그램을 찾으신다면 Notepad++를 추천합니다.<br>
+        메모장과 다르게 다양한 프로그래밍 언어들은 문법하이라이팅도 해주기 때문에 무거운 IDE를 켜지 않아도 가볍게 수정이 가능하다는 것도 장점이겠네요.<br>
+        <div id="btn" style="margin-top: 10px; width: 800px; min-width: 800px;"><span
+                style="text-decoration: underline;">대표적인 지원 언어 목록(클릭해서 펼쳐보기)</span>
+            <div id="list" style="border:dotted black 1px;">
+                <ul>
+                    <li>ActionScript</li>
+                    <li>Assembly</li>
+                    <li>Batch</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                    <li>CMake</li>
+                    <li>CSS</li>
+                    <li>Fortran</li>
+                    <li>Haskell</li>
+                    <li>HTML</li>
+                    <li>JAVA</li>
+                    <li>JAVAScript</li>
+                    <li>JSON</li>
+                    <li>JSP</li>
+                    <li>LaTeX</li>
+                    <li>LISP</li>
+                    <li>Lua</li>
+                    <li>Makefile</li>
+                    <li>MATLAB</li>
+                    <li>MS-DOS</li>
+                    <li>Objective-C</li>
+                    <li>Pascal</li>
+                    <li>Perl</li>
+                    <li>PHP</li>
+                    <li>PowerShell</li>
+                    <li>Python</li>
+                    <li>R</li>
+                    <li>registry</li>
+                    <li>Ruby</li>
+                    <li>Rust</li>
+                    <li>Shell</li>
+                    <li>SQL</li>
+                    <li>Swift</li>
+                    <li>Visual Basic</li>
+                    <li>XML</li>
+                </ul>
+                *이 외에도 다양한 언어의 하이라이팅 기능을 지원하지만 너무 많아서 잘 알려진 언어들 위주로 작성했음.
+            </div>
+        </div>
+        <img src="source/npp.png" width="600px" style="margin: 10px;"><br><br>
+        아래 사이트에서 다운로드가 가능합니다.<br>
+        <a href="https://notepad-plus-plus.org/">Official Notepad++ Site</a><br>
+    </div>
+
+    <footer>
+        PC optimiziation<br>
+        <span id="contact">
+            Contact<br>
+        </span>
+        <div id="contactpopup">
+            chanlee420@naver.com
+        </div>
+        <div id="cpright">
+            Copyright ChanLee All rights reserved / Designed by ChanLee
+        </div>
+    </footer>
+
+    <div id="control">
+        <div id='up'>
+            <img src="/source/double-up.svg" style="height: 100%;">
+        </div>
+        <div id="down">
+            <img src="/source/double-down.svg" style="height:100%">
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
